@@ -6,7 +6,7 @@
           <figure
             class=" SiteLogo flex items-center justify-center md:justify-start gap-2 mb-2 " >
             <nuxt-logo class="w-12" />
-            <h1 class="text-2xl font-black">Designli</h1>
+            <h1 class="text-2xl font-black">MKL-Mobile</h1>
           </figure>
 
           <p>Obsessed with beautiful innovation.</p>
@@ -44,7 +44,7 @@
         <li><a href="http://instagram.com">IG</a></li>
         <li><a href="http://twitter.com">TW</a></li>
       </ul>
-      <p class="text-center mt-4">© Designli. All rights reserved</p>
+      <p class="text-center mt-4">© MKL-Mobile. All rights reserved</p>
     </div>
   </footer>
 </template>

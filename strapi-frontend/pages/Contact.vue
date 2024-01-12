@@ -2,7 +2,7 @@
   <main>
     <div class="px-4">
       <div class="cover img-cont h-full max-h-96">
-        <img class="rounded-b-2xl max-h-100" src="~/assets/img/hero.jpg" alt="" />
+        <img class="rounded-b-2xl max-h-100" src="~/assets/img/fhbuilding3.jpg" alt="" />
       </div>
     </div>
     <div class="section relative bg-gray-50 p-12 z-10 m-auto max-w-4xl rounded-2xl overflow-hidden">

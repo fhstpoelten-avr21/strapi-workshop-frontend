@@ -3,7 +3,7 @@
     <header>
       <div class="wrapper"></div>
       <div class="cover img-cont h-full max-h-72">
-        <img class=" rounded-b-2xl" src="~/assets/img/hero.jpg" alt="" />
+        <img class=" rounded-b-2xl" src="~/assets/img/fhbuilding.jpg" alt=""/>
       </div>
     </header>
     <div class="cont relative bg-gray-50 p-12 z-10 m-auto max-w-6xl rounded-2xl">
@@ -11,35 +11,26 @@
         <h1 class="hero-text">About Us</h1>
         <!-- <h2>Some more</h2> -->
         <p>
-          Ut in faucibus nibh. Phasellus et urna in ligula ultricies
-          pellentesque ac non nunc. Vivamus nec luctus enim. Class aptent taciti
-          sociosqu ad litora torquent per conubia nostra, per inceptos
-          himenaeos. Vestibulum non efficitur ipsum, sed efficitur justo. Nunc
-          tempus lectus nec turpis pulvinar volutpat. Aliquam erat volutpat.
-          Nulla nec luctus enim. Duis tempor nisi varius tristique bibendum.
-          Cras lobortis a felis nec placerat. Vestibulum ultrices vel nisi ac
-          convallis. In a blandit mi, sed varius risus. Mauris rhoncus elit vel
-          tellus elementum, vel finibus lectus faucibus. Vestibulum auctor
-          fermentum enim, eu euismod mi laoreet non. Phasellus ut blandit nisi,
-          vitae aliquet diam. Sed ut neque non erat vestibulum sollicitudin eget
-          in massa.
+          Welcome to the dynamic world of Mohamed Abd El Rehim and Christoph Murauer, two passionate developers on a
+          mission to elevate the web development experience through the powerful fusion of Nuxt.js and Strapi. As
+          advocates for innovation and excellence, we have joined forces to bring you an enlightening workshop designed
+          to unlock the full potential of these cutting-edge technologies.
         </p>
 
-        <h2>Some more more</h2>
+        <h2>Meet Mohamed Abd El Rehim:</h2>
         <p>
-          Proin tempor tellus ac velit feugiat, nec molestie massa consectetur.
-          Fusce eleifend sit amet ipsum et rhoncus. In tempor lacus a nulla
-          sagittis, porttitor varius erat ornare. Nulla posuere facilisis nulla
-          non tempor. Aenean sed sagittis est. Suspendisse varius dui sit amet
-          turpis ultrices congue. Maecenas sagittis velit massa, ut consequat
-          dolor dictum vitae. Vestibulum ullamcorper, justo et eleifend dapibus,
-          ante lacus faucibus tortor, ac tincidunt erat nunc sit amet metus. Nam
-          rutrum lacus non purus fermentum bibendum. Suspendisse laoreet
-          condimentum tempus. Pellentesque nulla lectus, mollis ut neque tempus,
-          finibus ultrices justo. Nam aliquet fermentum volutpat. Curabitur ut
-          ipsum est. Integer sed dolor euismod, elementum augue in, molestie
-          erat. Vivamus vitae bibendum enim. Donec tempor nulla non mollis
-          tincidunt.
+          With a keen eye for detail and an unwavering commitment to excellence, Mohamed Abd El Rehim is a seasoned
+          developer with a profound passion for crafting seamless digital experiences. Armed with a wealth of expertise
+          in web and mobile development, Mohamed thrives on staying at the forefront of technological advancements. His
+          dedication to continuous learning and hands-on experience has positioned him as a reliable guide in the
+          ever-evolving landscape of software development.
+        </p>
+        <h2>Meet Christoph Murauer:</h2>
+        <p>
+          An enthusiastic architect of digital solutions, Christoph Murauer is a visionary developer with a knack for
+          transforming ideas into reality. Christoph's journey in the tech realm is marked by a fusion of creativity and
+          technical acumen. His deep understanding of Nuxt.js and Strapi has empowered him to create streamlined and
+          efficient solutions, making him a driving force in the realm of modern web development.
         </p>
       </article>
     </div>

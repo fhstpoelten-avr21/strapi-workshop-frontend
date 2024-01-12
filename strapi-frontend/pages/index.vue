@@ -1,15 +1,12 @@
 <template>
-  <main>
+  <main :style="{ backgroundImage: `url(${require('@/assets/img/cover4.jpg')})`, backgroundSize: 'cover', backgroundPosition: 'center' }">
     <section class="site-section hero-section h-screen">
       <div class="wrapper flex items-center justify-center h-full m-auto max-w-6xl">
         <header class="text-center md:w-2/3">
-          <h1 class="hero-text md:text-7xl">Designli - Beautiful Innovation</h1>
+          <h1 class="hero-text md:text-7xl">Welcome to our STRAPI & NUXT Workshop</h1>
           <p class="mb-4">
-            We at Designli are obsessed with beautiful innovation. That's why we
-            go for a modern approach in providing high end premium services to
-            our customers and boy are they happy with the results so far!
+            We are pleased to present you our nuxt and strapi workshop. Enjoy :)
           </p>
-          <button class="cta">Get in touch</button>
         </header>
       </div>
     </section>
