@@ -16,7 +16,7 @@
           <div class="wrapper col-start-2">
             <h1 class="header-text">Our Services</h1>
             <p class="mb-4">
-              We at Designli are obsessed with beautiful innovation.
+              We at FHSTP are obsessed with beautiful innovation.
             </p>
           </div>
         </header>
@@ -29,7 +29,7 @@
       <div class="wrapper py-12 m-auto max-w-4xl">
         <header class="text-center mb-6">
           <h1 class="header-text">Our Projects</h1>
-          <p>We at Designli are obsessed with beautiful innovation.</p>
+          <p>We at FHSTP are obsessed with beautiful innovation.</p>
         </header>
         <ul v-if="projects" class="projects">
           <project-card v-for="project in projects" :key="project.id" :project="project.attributes" />
@@ -74,5 +74,4 @@
       }
     },
   }
-
 </script>
