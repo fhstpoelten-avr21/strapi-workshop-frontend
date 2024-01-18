@@ -9,7 +9,7 @@
       <p class="mb-2">{{article.intro}}</p>
 
       <!-- link to dynamic page based on the `slug` value -->
-      <nuxt-link :to="`/blog/${article.slug}`">
+      <nuxt-link :to="articleSlugAsString(article)">
         <button class="cta w-max">Read more</button>
       </nuxt-link>
     </header>
@@ -20,6 +20,10 @@
   export default {
     props: ['article'],
     computed: {
+      articleSlugAsString(article) {
+        console.log('article', article.slug)
+        return "/blog/" + article.slug
+      },
       coverImageUrl(){
         const url = this.$store.state.url
         const imagePath = this.article.cover.data.attributes.formats.medium.url

@@ -12,7 +12,7 @@
           <h1 class="hero-text mt-4">{{ article.title }}</h1>
           <p>{{ article.intro }}</p>
           <p class="text-gray-600 text-sm mb-2"><span class="font-extrabold">Categories: </span> {{ articleCategories }}</p>
-          
+
           <!-- use markdownit to render the markdown text to html -->
           <div v-html="$md.render(article.body)" class="body"></div>
         </article>
