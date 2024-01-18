@@ -1363,7 +1363,7 @@
 
 "@nuxtjs/markdownit@^2.0.0":
   version "2.0.0"
-  resolved "https://registry.npmjs.org/@nuxtjs/markdownit/-/markdownit-2.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/markdownit/-/markdownit-2.0.0.tgz#5fcd35afdb78f328ba2dbc1f678f0c0bb9ea85f9"
   integrity sha512-YAEK/s0IzdWK1L74WKTQSMcvNhGgOW0xIWdu5VMxDo1NkNpm/0CbJZgSPt1JYAnT8r8r6wVQ5SY1v/1MZanPlQ==
   dependencies:
     "@nuxtjs/markdownit-loader" "^1.1.1"
@@ -5561,14 +5561,14 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-markdown-it-attrs@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.npmjs.org/markdown-it-attrs/-/markdown-it-attrs-4.1.0.tgz"
-  integrity sha512-xd1SuNQPArGYl3SN1bsOHRnmMenkqeLDbTR0udeyGMSFBnaOtxP4yz1SEKrjsV/XYFygFAeKFHgbbj6AwxbTfA==
+markdown-it-attrs@^4.1.6:
+  version "4.1.6"
+  resolved "https://registry.yarnpkg.com/markdown-it-attrs/-/markdown-it-attrs-4.1.6.tgz#2bc331c7649d8c6396a0613c2bba1093f3e64da9"
+  integrity sha512-O7PDKZlN8RFMyDX13JnctQompwrrILuz2y43pW2GagcwpIIElkAdfeek+erHfxUOlXWPsjFeWmZ8ch1xtRLWpA==
 
 markdown-it-div@^1.1.0:
   version "1.1.0"
-  resolved "https://registry.npmjs.org/markdown-it-div/-/markdown-it-div-1.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/markdown-it-div/-/markdown-it-div-1.1.0.tgz#779c07a2313a36e59afd54c39907f9bc87c1ab20"
   integrity sha512-Vz1T8cPG4sRofn5VlwiGMpy7AyhizbBZcFmvVDf/mlDgF7Mt6QqjPhc/nLlLYB3EANkJfO4kym7R6SZ7RhGvCQ==
 
 markdown-it@^8.3.1:
