@@ -8,13 +8,7 @@
       </header>
       <div class="cont relative bg-gray-50 p-12 z-10 m-auto max-w-6xl rounded-2xl">
         <article class="prose prose-xl m-auto w-full">
-          <span style="margin-bottom: 1rem" class=" uppercase text-sm font-thin text-gray-600">from the team</span>
-          <h1 class="hero-text mt-4">{{ article.title }}</h1>
-          <p>{{ article.intro }}</p>
-          <p class="text-gray-600 text-sm mb-2"><span class="font-extrabold">Categories: </span> {{ articleCategories }}</p>
-          
-          <!-- use markdownit to render the markdown text to html -->
-          <div v-html="$md.render(article.body)" class="body"></div>
+          <!-- TODO: Step 9 - show article informations -->
         </article>
       </div>
     </div>
@@ -31,14 +25,9 @@
 export default {
   async asyncData({ params, store }) {
     try {
-      // fetch data by slug using Strapi query filters
-      const { data } = await (
-        await fetch(
-          `${store.state.apiUrl}/articles?filters[slug][$eq]=${params.slug}&populate=*`
-        )
-      ).json()
+      // TODO: Step 9 - fetch data by slug using Strapi query filters
 
-      return { article: data[0].attributes }
+      return null
     } catch (error) {
       console.log(error)
     }

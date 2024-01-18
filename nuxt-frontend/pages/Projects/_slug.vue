@@ -16,14 +16,9 @@
         class="cont relative bg-gray-50 p-12 z-10 m-auto max-w-6xl rounded-2xl"
       >
         <article class="prose prose-xl m-auto w-full">
-          <p class="text-gray-600 text-sm mb-2">
-            {{ projectCategories }}
-          </p>
-          <h1 class="hero-text">{{ project.title }}</h1>
-          <p>{{ project.intro }}</p>
+          <!--  TODO: Step 8 - show project informations -->
 
-          <!-- use markdownit to render the markdown text to html -->
-          <div v-html="$md.render(project.body)" class="body"></div>
+          <!--  TODO: Step 8 - use markdownit here, to render the markdown text to html -->
         </article>
       </div>
     </div>
@@ -38,18 +33,13 @@
 
 <script>
 export default {
-  // use destructuring to get the context.params and context.store
   async asyncData({ params, store }) {
     try {
 
-      // fetch data by slug using Strapi query filters
-      const { data } = await (
-        await fetch(
-          `${store.state.apiUrl}/projects?filters[slug][$eq]=${params.slug}&populate=*`
-        )
-      ).json()
+      // TODO: Step 8 - fetch data by slug using Strapi query filters
 
-      return { project: data[0].attributes }
+
+      return null
     } catch (error) {
       console.log(error)
     }

@@ -20,9 +20,7 @@
             </p>
           </div>
         </header>
-        <ul class="services grid md:grid-cols-3 gap-6 transform md:-translate-y-20">
-          <service-card v-for="service in services" :key="service.id" :service="service.attributes" />
-        </ul>
+          <!-- TODO: Step 7 - Show Services here -->
       </div>
     </section>
     <section class="site-section projects-section">
@@ -31,9 +29,7 @@
           <h1 class="header-text">Our Projects</h1>
           <p>We at FHSTP are obsessed with beautiful innovation.</p>
         </header>
-        <ul v-if="projects" class="projects">
-          <project-card v-for="project in projects" :key="project.id" :project="project.attributes" />
-        </ul>
+        <!-- TODO: Step 7 - Show Projects here -->
         <div class="action-cont text-center mt-12">
           <nuxt-link to="/projects">
             <button class="cta">View more</button>
@@ -48,9 +44,7 @@
           <p class="mb-2">Helpful content from from the team to you.</p>
           <button class="cta w-max">Explore our blog</button>
         </header>
-        <ul v-if="articles" class="articles md:grid gap-6 col-start-3 col-end-8">
-          <article-card v-for="article in articles" :key="article.id" :article="article.attributes" />
-        </ul>
+        <!-- TODO: Step 7 - Show Articles here -->
       </div>
     </section>
   </main>
@@ -60,13 +54,8 @@
   export default {
     async asyncData({ $strapi, store }) {
       try {
-        const services = await (await fetch(`${store.state.apiUrl}/project-categories?populate=*`)).json()
-        const projects = await (await fetch(`${store.state.apiUrl}/projects?populate=*`)).json()
-        const articles = await (await fetch(`${store.state.apiUrl}/articles?populate=*`)).json()
 
-        // const projects = await $strapi.$projects.find()
-        // const articles = await $strapi.$articles.find()
-        // const services = await $strapi.find('project-categories')
+        // TODO: Step 4 - Fetch Data
 
         return { projects: projects.data, articles: articles.data, services: services.data }
       } catch (error) {

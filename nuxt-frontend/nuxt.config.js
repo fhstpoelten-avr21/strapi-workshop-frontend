@@ -21,28 +21,18 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     '@nuxtjs/strapi',
-    '@nuxtjs/markdownit',
+    // TODO: 2. add rich-text-plugin here
   ],
 
   axios: {},
 
   // Strapi module configuration
   strapi: {
-    // Options
-    url: process.env.STRAPI_URL || 'http://localhost:3000/api',
-    entities: ['articles', 'projects', 'project_categories', 'categories', 'visitor_messages'],
+      // TODO: 1. Add Strapi Configuration
   },
 
   // See https://github.com/markdown-it/markdown-it#readme
-  // [optional] markdownit options
-  markdownit: {
-    runtime: true, // Support `$md()`
-      preset: 'default',
-      linkify: true,
-      breaks: true,
-      use: ['markdown-it-div', 'markdown-it-attrs'],
-  },
-
+  // TODO: 3. add rich-text-plugin options here
 
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa

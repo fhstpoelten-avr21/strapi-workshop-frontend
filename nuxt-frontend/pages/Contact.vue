@@ -14,39 +14,19 @@
       <form ref="form" @submit.prevent="submitForm()">
         <div class="wrapper flex flex-col gap-8 mb-8">
           <div class="form-group">
-            <div class="form-control">
-              <label for="name">Full name</label>
-              <input type="text" id="name" v-model="name" value="Miracleio"  required/>
-            </div>
-            <!-- <div class="form-control">
-              <label for="company">Company name</label>
-              <input type="text" id="company" v-model="company" value="Miracleio"  required/>
-            </div> -->
+            <!-- TODO: Step 10 - add fullname input -->
           </div>
           <div class="form-control">
-            <label for="email">Email Address</label>
-            <input type="email" id="email" v-model="email" value="Miracleio@gmail.com"  required/>
+            <!-- TODO: Step 10 - add email input -->
           </div>
           <div class="wrapper">
             <h3 class="">Pick a service</h3>
             <div class="form-group check">
-              <div class="form-control check">
-                <input type="checkbox" name="services" id="branding" value="branding" v-model="services">
-                <label for="branding">Branding</label>
-              </div>
-              <div class="form-control check">
-                <input type="checkbox" name="services" id="web_design" value="web_design" v-model="services">
-                <label for="web_design">Web design</label>
-              </div>
-              <div class="form-control check">
-                <input type="checkbox" name="services" id="ui/ux" value="ui/ux" v-model="services">
-                <label for="ui/ux">UI/UX</label>
-              </div>
+              <!-- TODO: Step 10 - add service checkboxes -->
             </div>
           </div>
           <div class="form-control">
-            <label for="message">What's your request or message?</label>
-            <textarea id="message" placeholder="Write message here" rows="12" v-model="message" required>What's up</textarea>
+            <!-- TODO: Step 10 - add text input -->
           </div>
         <div class="action-cont">
           <button class="cta" >Send message</button>
@@ -66,34 +46,15 @@
     data(){
       return{
         success: false,
-        name: 'Miracle',
-        // company: 'Miracleio',
-        email: 'mio@mio.co',
-        services: ['branding'],
-        message: 'What\'s up yo?'
+        // TODO: Step 10 - add input variables
       }
     },
     methods: {
       async submitForm(){
-        const data = {
-          name: this.name,
-          // company: this.company,
-          email: this.email,
-          project_categories: this.services,
-          body: this.message
-        }
-
         try {
+          //TODO: Step 10 - add data validation
           // send a POST request to create a new entry
-          const msgs = await fetch(`${this.$store.state.apiUrl}/visior-messages`, {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({data})
-          })
-
-          if(msgs) this.success = true
+          console.log('Send POST request to strapi')
         } catch (error) {
           console.log(error);
         }
